@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sport</title>
+	<link rel="stylesheet" href="style/index.css">
+	<link rel="stylesheet" href="style/normilized.css">
+</head>
+<body>
+	<header class="header" id="head">
+		<img class="logotip" src="https://scity.online/wp-content/themes/scity_theme/images/logo.png" alt="логотип">
+		<ul class="menu">
+			<li><a href="#head">Главная</a></li> 
+			<li><a href="#row">Магазин</a></li> 
+			<li><a href="#map">Карта</a></li> 
+			<li class="den"><a href="#contacts">Контакты</a></li> 
+		</ul>
+	</header>
+		<main class="main">
+			<img class="back" src="https://scity.online/wp-content/uploads/2017/11/WEB_Sport-City_banner_6h3-1-0x0.jpg" alt="">
+			<div class="row" id="row">
+				<div class="row-1">
+					<span class="span">ВСЕ.</span>
+					<div class="row-1-1">
+					
+					</div>
+
+				</div>
+					<div class="row-1 ">
+					<span class="span span-2">В ОДНОМ.</span>
+					<div class="row-1-2">
+					
+					</div>
+						
+					</div>
+						<div class="row-1">
+						<span class="span">МЕСТЕ.</span>
+						<div class="row-1-3">
+					
+						</div>
+						
+						</div>
+							<div class="row-1">
+							<img  class="big-logo" src="https://scity.online/wp-content/themes/scity_theme/images/logo.png" alt="">
+							<div class="row-1-4">
+					
+							</div>
+						
+							</div>
+				
+			</div>
+
+			<div class="colum-mark">
+				<div class="colum-mark-1">
+					<div class="colum-wraper-1">
+						
+					</div>
+				</div>
+				<div class="colum-mark-2">
+					<div class="colum-wraper-2">
+						
+					</div>
+				</div>
+				<div class="colum-mark-3">
+					<div class="colum-wraper-3">
+						
+					</div>
+				</div>
+				<div class="colum-mark-4">
+					<div class="colum-wraper-4">
+						
+					</div>
+				</div>
+			</div>
+	<div class="marks">
+		<ul class="line">
+			<li><a href="https://www.nike.com/language_tunnel?ref=https%3A%2F%2Fwww.google.com.ua%2F"><img class="image" src="https://scity.online/wp-content/themes/scity_theme/images/brands/brands_0008_nike.png" alt=""></a></li>
+			<li><a href="https://www.adidas.com/us"><img class="image" src="https://scity.online/wp-content/themes/scity_theme/images/brands/brands_0009_Adidas.png" alt=""></a></li>
+			<li><a href="https://ru.puma.com/"><img class="image" src="https://scity.online/wp-content/themes/scity_theme/images/brands/brands_0007_Puma.png" alt=""></a></li>
+			<li><a href="https://www.reebok.in.ua/"><img class="image" src="https://scity.online/wp-content/themes/scity_theme/images/brands/brands_0002_Reebok.png" alt=""></a></li>
+			<li><a href="http://www.merrell.com/US/en/mens-shoes/"><img class="image" src="https://scity.online/wp-content/themes/scity_theme/images/brands/brands_0003_merrell.png" alt=""></a></li>
+			<li><a href="http://www.columbia.ua/"><img class="image" src="https://scity.online/wp-content/themes/scity_theme/images/brands/brands_0004_columbia.png" alt=""></a></li>
+			<li><a href="https://www.cat.com/ru_RU/products/new/equipment.html"><img class="image" src="https://scity.online/wp-content/themes/scity_theme/images/brands/brands_0005_cat.png" alt=""></a></li>
+		</ul>
+	</div>
+	 
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 49.99463, lng: 36.23281};
+        var uluru2 = {lat: 50.02766, lng: 36.33133};
+        var uluru3 = {lat: 49.98477, lng: 36.18664};
+        var uluru4 = {lat: 49.99033, lng: 36.29045};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+         var marker = new google.maps.Marker({
+          position: uluru2,
+          map: map
+        });
+         var marker = new google.maps.Marker({
+          position: uluru3,
+          map: map
+        });
+         var marker = new google.maps.Marker({
+          position: uluru4,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5nftWC9KCQdn0jDoQCJ7DrU0xEm4QRV0&callback=initMap">
+    </script>
+		</main>
+			<footer class="footer" id="contacts">
+				<div class="nah">
+					<img src="https://scity.online/wp-content/themes/scity_theme/images/logo.png" alt="">
+					<p>Сеть магазинов спортивной одежды и обуви для всей семьи, мы более 10 лет активно развиваемся на рынке спортивных товаров.</p>
+				</div>
+					<div class="pah">
+						<h3>Контакты</h3>
+							<p><img class="fimg" src="img/home-icon-silhouette.png" alt=""> г. Харьков, ул. Университетская, 16</p>
+							<p><img src="img/call-answer.png" alt="">+(38)095-349-09-17</p>
+							<p><img src="img/message-closed-envelope.png" alt="">SportCity@cursach.com</p>
+					</div>
+						<hr class="hr">
+						<div class="box1">
+							<h3>г. Харьков</h3>
+								<p>Sport City</p>
+								<p>ул. Героев Труда, 9</p>
+								<p>С 9:00 до 23:00</p>
+								<p>+38(095)349-09-17</p>
+						</div>
+							<div class="box2">
+								<h3>г. Харьков</h3>
+									<p>Sport City</p>
+									<p>вулиця Полтавський Шлях, 1409</p>
+									<p>С 9:00 до 23:00</p>
+									<p>+38(095)349-09-17</p>
+							</div>
+								<div class="box3">
+									<h3>г. Харьков</h3>
+										<p>Sport City</p>
+										<p>вулиця Сумська, 10</p>
+										<p>С 9:00 до 23:00</p>
+										<p>+38(095)349-09-17</p>
+								</div>
+									<div class="box4">
+										<h3>г. Харьков</h3>
+											<p>Sport City</p>
+											<p>вулиця Академіка Павлова, 44Б</p>
+											<p>С 9:00 до 23:00</p>
+											<p>+38(095)349-09-17</p>
+									</div>
+			</footer>
+</body>
+</html>
+ 
